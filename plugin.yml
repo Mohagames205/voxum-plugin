@@ -1,0 +1,18 @@
+---
+name: voxum
+version: 0.0.1
+main: Mohamed205\voxum\Main
+api: 4.12.2
+src-namespace-prefix: Mohamed205\voxum
+
+commands:
+  trigger:
+    permission: trigger
+    description: trigger push to server
+  verify:
+    permission: trigger
+
+permissions:
+  trigger:
+    default: op
+...
